@@ -97,3 +97,84 @@ export default function LoginScreen() {
         </KeyboardAvoidingView>
     );
 }
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: '#f0f4f8',
+        padding: 20,
+    },
+    content: {
+        flex: 1,
+        justifyContent: 'center',
+        padding: 20,
+    },
+    emoji: {
+        fontSize: 64,
+        textAlign: 'center',
+        marginBottom: 20,
+    },
+    title: {
+        fontSize: 32,
+        fontWeight: 'bold',
+        textAlign: 'center',
+        marginBottom: 10,
+        color: '#333',
+    },
+    subtitle: {
+        fontSize: 16,
+        textAlign: 'center',
+        marginBottom: 30,
+        color: '#666',
+    },
+    input: {
+        backgroundColor: '#fff',
+        borderRadius: 8,
+        padding: 15,
+        marginBottom: 15,
+        fontSize: 16,
+        borderWidth: 1,
+        borderColor: '#ddd',
+    },
+    button: {
+        backgroundColor: '#007bff',
+        padding: 15,
+        borderRadius: 8,
+        alignItems: 'center',
+        marginTop: 10,
+        minHeight: 50,
+        justifyContent: 'center',
+    },
+    buttonDisabled: {
+        opacity: 0.7,
+    },
+    buttonText: {
+        color: '#fff',
+        fontSize: 18,
+        fontWeight: 'bold',
+    },
+    registerContainer: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        marginTop: 20,
+        alignItems: 'center',
+    },
+    registerText: {
+        color: '#666',
+        fontSize: 14,
+    },  
+    registerLink: {
+        color: '#007bff',
+        fontSize: 14,
+        fontWeight: 'bold',
+    },
+    infoText: {
+        textAlign: 'center',
+        color: '#999',
+        fontSize: 14,
+        marginTop: 30,
+        paddingHorizontal: 20,w
+    },
+});
